@@ -1,5 +1,4 @@
 
-# TODO: this should take care both scroller value set and cursor position set
 class InfiniteScroller:
     def __init__(self):
         self.horizontal_callback = None

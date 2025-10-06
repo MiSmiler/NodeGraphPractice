@@ -75,7 +75,7 @@ class NodeGraphiscView(QGraphicsView):
         if event.button() == Qt.MouseButton.LeftButton:
             pass
         elif event.button() == Qt.MouseButton.MiddleButton:
-            self.inf_scroller = None
+            self.inf_scroller.end()
             self.setCursor(Qt.CursorShape.ArrowCursor)
 
     def _update_horizotal_scroll_bar(self, value):
