@@ -1,4 +1,3 @@
-
 class InfiniteScroller:
     def __init__(self):
         self.horizontal_callback = None
